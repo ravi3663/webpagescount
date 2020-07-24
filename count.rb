@@ -7,7 +7,6 @@ log = file.split("\n")
 log[0] = log[0].sub('/', '')
 
 logarray = log.map { |line| line.split(' ') }
-puts logarray
 
 @hash = Hash.new(0)
 
